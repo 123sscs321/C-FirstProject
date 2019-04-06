@@ -1,8 +1,6 @@
 # depslib dependency file v1.0
-1554217876 source:f:\androidtools\code project\first project\main.c
+1554463622 source:f:\androidtools\code project\first project\main.c
 	<stdlib.h>
-	<stdio.h>
-	<string.h>
 
 1554218404 source:f:\androidtools\code project\first project\first.c
 
