@@ -31,9 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="first.c">
+		<Unit filename="add/enum_utils.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="add/enum_utils.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

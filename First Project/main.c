@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "enum_utils.h"
 
 int strcmp_demo(char str0[],char str1[])
 {
@@ -17,10 +18,6 @@ int strcmp_demo(char str0[],char str1[])
 
 int main()
 {
-    char str1[]="http://www.caidu.com";
-    char str2[]="http://www.baidu.com";
-    //int result=strcmp(str1,str2);
-    int result=strcmp_demo(str1,str2);
-    printf("str1 - str2=%d\n",result);
+    enum_method();
     return 0;
 }
