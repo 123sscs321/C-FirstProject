@@ -19,5 +19,6 @@ int strcmp_demo(char str0[],char str1[])
 int main()
 {
     enum_method();
+    pointer_method();
     return 0;
 }

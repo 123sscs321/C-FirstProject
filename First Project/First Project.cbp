@@ -35,6 +35,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="add/enum_utils.h" />
+		<Unit filename="add/pointer_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="add/pointer_utils.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
