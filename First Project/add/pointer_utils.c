@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+const int MAX=3;
+
 void pointer_method()
 {
     first_pointer_method();
@@ -8,6 +10,9 @@ void pointer_method()
     fourth_pointer_method();
     fifth_pointer_method();
     sixth_pointer_method();
+    seventh_pointer_method();
+    eighth_pointer_method();
+    ninth_pointer_method();
 }
 
 void first_pointer_method()
@@ -80,3 +85,45 @@ void sixth_pointer_method()
         ptr++;
     }
 }
+
+void seventh_pointer_method()
+{
+    printf("\n");
+    int var[]= {1,2,3};
+    int i;
+    for(i=0; i<MAX; i++)
+    {
+        printf("Array[%d] value is %d\n",i,var[i]);
+    }
+}
+
+void eighth_pointer_method()
+{
+    printf("\n");
+    int var[]= {1,2,3};
+    int i,*ptr[MAX];
+    for(i=0; i<MAX; i++)
+    {
+        ptr[i]=&var[i];
+        printf("Array[%d] value is %d\n",i,*ptr[i]);
+    }
+}
+
+
+void ninth_pointer_method()
+{
+    const char *names[]=
+    {
+        "Jack Ge",
+        "Lucky Long",
+        "Nick Gen"
+    };
+
+    printf("\n");
+    int i;
+    for(i=0; i<MAX; i++)
+    {
+        printf("Names[%d] value is %s\n",i,names[i]);
+    }
+}
+
